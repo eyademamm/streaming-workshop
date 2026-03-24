@@ -1,0 +1,13 @@
+# Ignore Python environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore massive data files
+*.csv
+*.parquet
+*.gz
+
+# Ignore database and docker volumes
+.data/
+postgres-data/
